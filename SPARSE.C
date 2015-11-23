@@ -2,9 +2,10 @@
 #include<conio.h>
 #include<process.h>
 
-int a[10][10],s[10][3],i,j,key,nr,nc,nt=0;
+int a[10][10],s[10][3],i,j,key,nr,nc,nt;
 void read()
 {
+	nt = 0;
 printf("\nEnter the order of matrix : ");
 scanf("%d %d",&nr,&nc);
 printf("\nEnter the sparse matrix : ");

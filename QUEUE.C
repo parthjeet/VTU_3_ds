@@ -26,7 +26,9 @@ front=0;
 return;
 }
 printf("\nElement deleted is : %d",q[front]);
-front ++;
+q[front]=q[front+1];
+q[rear-1]=q[rear];
+rear--;
 }
 void qdisplay()
 {

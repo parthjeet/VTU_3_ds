@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<process.h>
-#define max 3
+#define max 5
 int q[max],ele,i;
 int front=0,rear=-1;
 void qinsert()
@@ -26,8 +26,8 @@ front=0;
 return;
 }
 printf("\nElement deleted is : %d",q[front]);
-q[front]=q[front+1];
-q[rear-1]=q[rear];
+for(i=front;i<rear;i++)
+	q[i]=q[i+1];
 rear--;
 }
 void qdisplay()

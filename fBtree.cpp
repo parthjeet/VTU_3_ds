@@ -63,7 +63,7 @@ void btree::postorder(int pos)
 void main()
 {	
 	clrscr();
-	cout<<"IMPLEMENTATION OF BINARY TREE\n\n";
+	cout<<"\t IMPLEMENTATION OF BINARY TREE \n\n";
 	btree t1;
 	t1.create();
 	cout<<"\nPREORDER : \n";

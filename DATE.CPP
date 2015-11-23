@@ -74,7 +74,7 @@ x.d=1;
 x.m++;
 }
 }
-count=count-d-1;
+count=count+d-1;
 }
 else
 {
@@ -97,7 +97,7 @@ x.y++;
 x.m=1;
 }
 }
-count-1==d-1;
+count-1=d-1;
 }
 return count;
 }

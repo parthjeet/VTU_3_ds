@@ -19,7 +19,7 @@ friend ostream &operator<<(ostream &dout,stack &s);
 };
 void stack::operator+(int x)
 {
-if(top==size==-1)
+if(top==size=-1)
 cout<<"\n stack overflow";
 else
 stk[++top]=x;

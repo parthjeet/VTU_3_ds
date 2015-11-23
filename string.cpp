@@ -31,7 +31,7 @@ void main()
 	string s2 = "BELGAUN";
 	string s3 = s1+s2;
 	cout<<"\n s1 = "<<s1;
-	cout<<"\n s3 = "<<s2;
-	cout<<"\n s2 = "<<s3;
+	cout<<"\n s2 = "<<s2;
+	cout<<"\n s3 = "<<s3;
 	getch();
 }

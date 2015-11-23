@@ -74,7 +74,7 @@ x.d=1;
 x.m++;
 }
 }
-count=count+d-1;
+count=count-d-1;
 }
 else
 {
